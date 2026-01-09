@@ -264,7 +264,7 @@ flowchart TD
     MoreItems -->|Tidak| ViewCart[Lihat Keranjang]
     
     ViewCart --> EditCart{Edit Keranjang?}
-    EditCart -->|Ya, Edit| ReviewCart[Edit Jumlah/Hapus Item]
+    EditCart -->|Ya, Edit| ReviewCart[Edit Jumlah,Tambah Catatan/Hapus Item]
     EditCart -->|Tidak| CheckoutPage[Halaman Checkout]
     ReviewCart --> ViewCart
     
